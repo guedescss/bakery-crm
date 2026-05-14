@@ -1,100 +1,100 @@
-# README.md (English)
+# README.pt-BR.md (Português)
 
-````md
+```md
 # 🍞 Bakery CRM
 
-### Intelligent bakery prospecting platform powered by AI
+### Plataforma inteligente de prospecção de padarias com IA
 
-Bakery CRM is a SaaS platform focused on discovering commercial opportunities for bakery renovations and business modernization.
+Bakery CRM é uma plataforma SaaS focada em descobrir oportunidades comerciais para reformas e modernização de padarias.
 
-Instead of being just another CRM, Bakery CRM combines:
+Ao invés de ser apenas mais um CRM, o Bakery CRM combina:
 
-- 📍 Google Maps intelligence
-- 🤖 AI lead scoring
-- 🧠 Commercial analysis
-- 📊 Prospecting dashboards
-- 🗺 Geolocation
-- 🏢 Multi-tenant SaaS architecture
+- 📍 Inteligência com Google Maps
+- 🤖 Lead scoring com IA
+- 🧠 Análise comercial
+- 📊 Dashboards de prospecção
+- 🗺 Geolocalização
+- 🏢 Arquitetura SaaS multi-tenant
 
-The platform automatically identifies bakeries with high commercial potential based on reviews, reputation, visual quality, and customer feedback.
-
----
-
-# 🌎 Language
-
-🇺🇸 English Documentation  
-🇧🇷 Portuguese Documentation: `README.pt-BR.md`
+A plataforma identifica automaticamente padarias com alto potencial comercial com base em avaliações, reputação, qualidade visual e feedback dos clientes.
 
 ---
 
-# ✨ Vision
+# 🌎 Idioma
 
-Transform local business prospecting into an intelligent, data-driven operation.
-
-Bakery CRM was designed to help teams discover:
-
-- bakeries with low ratings
-- outdated interiors
-- weak visual presentation
-- poor customer feedback
-- high renovation potential
+🇺🇸 English Documentation: `README.md`  
+🇧🇷 Documentação em Português
 
 ---
 
-# 🚀 Core Features
+# ✨ Visão
 
-## 🔎 Intelligent Lead Mining
+Transformar a prospecção comercial local em uma operação inteligente orientada por dados.
 
-Automatic bakery capture using:
+O Bakery CRM foi criado para ajudar equipes a descobrirem:
+
+- padarias com notas baixas
+- interiores antigos
+- apresentação visual fraca
+- avaliações negativas
+- alto potencial de reforma
+
+---
+
+# 🚀 Funcionalidades Principais
+
+## 🔎 Mineração Inteligente de Leads
+
+Captura automática de padarias usando:
 
 - Google Maps
-- Local search
-- Commercial filters
-- Geolocation
+- busca local
+- filtros comerciais
+- geolocalização
 
-Captured data:
+Dados capturados:
 
-- business name
-- address
-- phone number
+- nome do estabelecimento
+- endereço
+- telefone
 - reviews
-- ratings
-- images
-- location
+- avaliações
+- imagens
+- localização
 
 ---
 
-# 🧠 AI Commercial Intelligence
+# 🧠 Inteligência Comercial com IA
 
-The system analyzes:
+O sistema analisa:
 
-- low ratings
-- negative reviews
-- outdated environments
-- poor visual presence
-- low-quality branding
+- notas baixas
+- reviews negativos
+- ambientes antigos
+- presença visual ruim
+- branding fraco
 
-Example:
+Exemplo:
 
 ```txt
-⭐ 3.6 rating
-"old interior"
-"tight space"
-"outdated environment"
+⭐ Nota 3.6
+"ambiente antigo"
+"espaço apertado"
+"visual ultrapassado"
 ````
 
-Generated result:
+Resultado gerado:
 
 ```txt
 Lead Score: 91/100
-Commercial Opportunity: HIGH
+Oportunidade Comercial: ALTA
 ```
 
 ---
 
-# 🏗 SaaS Architecture
+# 🏗 Arquitetura SaaS
 
-Built with scalability and modular SaaS architecture in mind.
+Construído pensando em escalabilidade.
 
 ## Stack
 
@@ -117,87 +117,86 @@ Built with scalability and modular SaaS architecture in mind.
 
 ---
 
-# 🔐 Multi-Tenant Structure
+# 🔐 Estrutura Multi-Tenant
 
-Bakery CRM is designed as a real SaaS platform:
+O Bakery CRM foi projetado como uma plataforma SaaS real:
 
-* tenant isolation
-* authentication
-* scalable API
-* modular architecture
-* future-ready infrastructure
+* isolamento de tenants
+* autenticação
+* API escalável
+* arquitetura modular
+* infraestrutura preparada para crescimento
 
 ---
 
-# 📊 Commercial Operation
+# 📊 Operação Comercial
 
-The platform supports:
+A plataforma oferece:
 
-* WhatsApp contact history
-* sales pipeline
-* technical visits
-* proposals
+* histórico de WhatsApp
+* pipeline de vendas
+* visitas técnicas
+* propostas
 * analytics
-* regional maps
-* lead qualification
+* mapas regionais
+* qualificação de leads
 
 ---
 
-# 🧠 AI & Automation Roadmap
+# 🧠 Funcionalidades Futuras com IA
 
-## Vision AI
+## IA de Visão Computacional
 
-Planned premium features:
+Funcionalidades premium planejadas:
 
-* interior analysis
-* outdated furniture detection
-* AI renovation mockups
-* WhatsApp automation
-* intelligent commercial campaigns
-* automatic commercial suggestions
-* closure prediction
-* smart sales routes
+* análise de interiores
+* detecção de móveis antigos
+* mockups de reforma com IA
+* sugestões comerciais automáticas
+* previsão de fechamento
+* rotas comerciais inteligentes
 
 ---
 
-# 🖥 Frontend & UX Goals
+# 🖥 Objetivos do Frontend
 
-* premium dashboard
-* responsive UI
-* modern tables
-* interactive maps
-* animations
+* dashboard premium
+* responsividade
+* tabelas modernas
+* mapas interativos
+* animações
 * dark mode
-* smooth UX
+* UX fluida
 
 ---
 
-# 📦 Monorepo Structure
+# 📦 Estrutura Monorepo
 
 ```bash
 apps/
  ├── web
  └── api
 
+
 ```
 
 ---
 
-# ⚙ Getting Started
+# ⚙ Começando
 
-## Clone repository
+## Clonar repositório
 
 ```bash
 git clone https://github.com/guedescss/bakery-crm.git
 ```
 
-## Install dependencies
+## Instalar dependências
 
 ```bash
 pnpm install
 ```
 
-## Run development
+## Rodar ambiente de desenvolvimento
 
 ```bash
 pnpm dev
@@ -207,77 +206,74 @@ pnpm dev
 
 # 📌 Development Roadmap
 
-## Phase 1
+## Fase 1
 
-* infrastructure
-* auth
-* database
-* SaaS structure
+* infraestrutura
+* autenticação
+* banco de dados
+* estrutura SaaS
 
-## Phase 2
+## Fase 2
 
-* bakery mining
-* maps integration
-* lead dashboard
+* mineração de padarias
+* integração com mapas
+* dashboard de leads
 
-## Phase 3
+## Fase 3
 
-* AI scoring
-* commercial intelligence
-* lead classification
+* score com IA
+* inteligência comercial
+* classificação de leads
 
-## Phase 4
+## Fase 4
 
-* commercial operation
+* operação comercial
 * WhatsApp
 * analytics
-* deployment
+* deploy
 
 ---
 
-# 🎯 Mission
+# 🎯 Missão
 
-Bakery CRM is not just a CRM.
+Bakery CRM não é apenas um CRM.
 
-It is a commercial intelligence platform designed to find local business opportunities before competitors do.
+É uma plataforma de inteligência comercial criada para encontrar oportunidades locais antes dos concorrentes.
 
 ---
 
-# 🎓 Personal Learning Journey
+# 🎓 Jornada de Aprendizado Pessoal
 
-This project was also built as a personal learning experience focused on real-world SaaS architecture and professional backend development.
+Este projeto também foi desenvolvido como uma experiência prática de aprendizado focada em arquitetura SaaS real e desenvolvimento backend profissional.
 
-Through Bakery CRM, I learned:
+Através do Bakery CRM, aprendi:
 
-* REST API architecture
-* SaaS application structure
-* professional monorepo organization
+* arquitetura REST API
+* estruturação de aplicações SaaS
+* organização profissional com monorepo
 * Prisma ORM
-* PostgreSQL integration
-* JWT authentication
-* scalable backend concepts
-* frontend/backend separation
-* enterprise development workflow
-* modern fullstack development
+* integração com PostgreSQL
+* autenticação JWT
+* conceitos de backend escalável
+* separação frontend/backend
+* fluxo de desenvolvimento enterprise
+* desenvolvimento fullstack moderno
 
-The goal was not only to build a product, but also to gain hands-on experience building a professional SaaS platform from scratch.
+O objetivo não foi apenas criar um produto, mas também adquirir experiência prática construindo uma plataforma SaaS profissional do zero.
 
 ---
 
 # ⭐ Status
 
-🚧 In active development
+🚧 Em desenvolvimento ativo
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Autor
 
-Developed by João Vitor Guedes
+Desenvolvido por João Vitor Guedes
 
 GitHub: [https://github.com/guedescss](https://github.com/guedescss)
 
-````
-
----
-
-
+```
+```
