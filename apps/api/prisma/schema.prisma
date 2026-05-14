@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Bakery {
+  id            String   @id @default(uuid())
+  name          String
+  city          String
+  phone         String?
+  website       String?
+  instagram     String?
+  rating        Float?
+  reviewsCount  Int?
+  leadScore     Int?
+  createdAt     DateTime @default(now())
+}
